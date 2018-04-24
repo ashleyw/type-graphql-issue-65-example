@@ -10,6 +10,6 @@ export class MyResolver {
     cursor: Cursor,
   ): MyEntity {
     console.log(cursor);
-    return cursor;
+    return { id: 1 };
   }
 }
