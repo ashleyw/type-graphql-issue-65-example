@@ -1,0 +1,12 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint-eslint-rules",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+      "interface-name": [true, "never-prefix"]
+    },
+    "rulesDirectory": []
+}
